@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,500;1,100;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* carousel start  */
+.slider img {
+  width: 100%;
+}
+.carousel {
+  height: 400px;
+}
+.carousel-caption {
+  margin-bottom: 200px;
+  line-height: 15px;
+}
+/* carousel end  */
+
+/* card group start  */
+.cardsgrp {
+  margin-top: 180px;
+}
+/* card group end  */
+/* our popular classes start  */
+.popular .row {
+  height: 550px;
+}
+/* our popular classes end  */
