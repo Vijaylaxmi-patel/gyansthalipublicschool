@@ -5,9 +5,20 @@
   padding: 0;
   box-sizing: border-box;
 }
+.btn {
+  background: red;
+}
+.btn:hover {
+  background: rgb(202, 2, 2);
+}
 .top-header .nav-item:hover a {
-  background: rgb(252, 194, 87);
+  background: red;
   color: white;
+}
+.top-header {
+  position: sticky !important;
+  top: 0px;
+  z-index: 444;
 }
 /* carousel start  */
 .slider img {
@@ -29,9 +40,31 @@
 /* card group end  */
 /* our popular classes start  */
 .popular .row {
-  height: 550px;
+  height: 650px;
 }
 /* our popular classes end  */
+
+/* orgnization section start  */
+/* .orgnization {
+  background-image: linear-gradient(
+      40deg,
+      rgba(255, 0, 0, 0.6) 100%,
+      transparent 50%
+    ),
+    url("./assest/img/school.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%; */
+/* height: 60vh; */
+/* background-attachment: fixed;
+  margin-top: 50px;
+}
+.orgnization .org-img {
+  margin-top: 100px;
+  padding: 20px;
+} */
+/* orgnization section end  */
 .rotate-scale-up {
   -webkit-animation: rotate-scale-up 0.65s linear both;
   animation: rotate-scale-up 0.65s linear both;
