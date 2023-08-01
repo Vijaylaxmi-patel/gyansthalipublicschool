@@ -5,15 +5,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+#heading {
+  color: rgb(13, 5, 87);
+}
 .btn {
   background: red;
+  border: 0px transparent;
 }
 .btn:hover {
   background: rgb(202, 2, 2);
 }
 .top-header .nav-item:hover a {
   background: red;
-  color: white;
+  color: rgb(37, 4, 100);
 }
 .top-header {
   position: sticky !important;
@@ -39,32 +43,54 @@
 }
 /* card group end  */
 /* our popular classes start  */
+.popular {
+  background: linear-gradient(rgba(25, 24, 24, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/img2.jpg);
+  height: 620px;
+  width: 100%;
+}
 .popular .row {
   height: 650px;
 }
+.popular .col-card {
+  position: relative;
+}
+.popular .col-card .btn {
+  position: absolute;
+  top: 162px;
+  z-index: 999;
+  margin-left: 165px;
+  color: #fff;
+  border-radius: 6px 6px 0px 0px;
+}
+.popular .col-card #btn1 {
+  margin-left: 210px;
+}
+.popular .col-card #btn2 {
+  margin-left: 190px;
+}
 /* our popular classes end  */
 
-/* orgnization section start  */
-/* .orgnization {
-  background-image: linear-gradient(
-      40deg,
-      rgba(255, 0, 0, 0.6) 100%,
-      transparent 50%
+/* best choice start  */
+.bestchoice {
+  background: linear-gradient(
+      rgba(236, 231, 231, 0.8),
+      rgba(243, 234, 234, 0.8)
     ),
-    url("./assest/img/school.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  width: 100%; */
-/* height: 60vh; */
-/* background-attachment: fixed;
-  margin-top: 50px;
+    url(../img/banner2.jpg);
+  height: 430px;
+  width: 100%;
 }
-.orgnization .org-img {
-  margin-top: 100px;
-  padding: 20px;
-} */
-/* orgnization section end  */
+/* best choice end  */
+
+/* <!-- photo gallery section start  --> */
+.photo {
+  background: rgb(200, 234, 248);
+  height: 580px;
+  width: 100%;
+}
+/* <!-- photo gallery section end --> */
+
 .rotate-scale-up {
   -webkit-animation: rotate-scale-up 0.65s linear both;
   animation: rotate-scale-up 0.65s linear both;
