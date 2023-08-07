@@ -46,28 +46,27 @@
 .popular {
   background: linear-gradient(rgba(25, 24, 24, 0.5), rgba(0, 0, 0, 0.5)),
     url(../img/img2.jpg);
-  height: 620px;
+  height: 650px;
   width: 100%;
 }
-.popular .row {
-  height: 650px;
+.popular h2 {
+  font-size: 50px;
 }
-.popular .col-card {
-  position: relative;
-}
-.popular .col-card .btn {
+/* .popular h2::after {
+  content: "";
+  display: block;
+  width: 130px;
+  height: 5px;
+  background: #e68b03;
+  right: 0;
+  top: 30%;
   position: absolute;
-  top: 162px;
-  z-index: 999;
-  margin-left: 165px;
-  color: #fff;
-  border-radius: 6px 6px 0px 0px;
-}
-.popular .col-card #btn1 {
-  margin-left: 210px;
-}
-.popular .col-card #btn2 {
-  margin-left: 190px;
+} */
+.popular .btn {
+  margin-top: 200px;
+  border-bottom-left-radius: 0%;
+  border-bottom-right-radius: 0%;
+  margin-left: 150px;
 }
 /* our popular classes end  */
 
@@ -86,10 +85,62 @@
 /* <!-- photo gallery section start  --> */
 .photo {
   background: rgb(200, 234, 248);
-  height: 580px;
+  height: 550px;
   width: 100%;
 }
 /* <!-- photo gallery section end --> */
+
+/* textimonial section start  */
+.textimonial {
+  height: 500px;
+}
+/* textimonial section end  */
+
+/* call section start  */
+.call {
+  height: 400px;
+}
+.call h2 {
+  font-size: 45px;
+}
+/* call section end  */
+
+/* our teacherts section start  */
+.teachers {
+  height: 550px;
+}
+.teachers h2 {
+  font-size: 48px;
+}
+/* our teacherts section end  */
+
+/* our blog section start  */
+.blog {
+  height: 670px;
+}
+.blog h2 {
+  font-size: 50px;
+}
+.blog .btn {
+  margin-top: 200px;
+  border-bottom-left-radius: 0%;
+  border-bottom-right-radius: 0%;
+  margin-left: 150px;
+}
+/* our blog section end  */
+
+/* footer section start  */
+.footer {
+  height: 600px;
+}
+.footer .lower #int {
+  margin-left: 62px;
+  line-height: -50px;
+}
+a {
+  text-decoration: none;
+}
+/* footer section end  */
 
 .rotate-scale-up {
   -webkit-animation: rotate-scale-up 0.65s linear both;
