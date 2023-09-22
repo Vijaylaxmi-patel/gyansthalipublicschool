@@ -141,6 +141,32 @@
 .teachers h2 {
   font-size: 48px;
 }
+.t-image {
+  position: relative;
+}
+.t-image img {
+  width: 100%;
+  display: block;
+}
+.t-image a {
+  color: #fff;
+  text-decoration: none;
+}
+.t-image .hitem {
+  position: absolute;
+  top: 306px;
+  /* margin-left: 20px; */
+  background-color: rgba(228, 7, 7, 0.5);
+  background-image: linear-gradient(rgba(236, 4, 4, 0.5), rgba(6, 6, 59, 0.5));
+  padding: 0, 30px;
+  width: 92%;
+  opacity: 0;
+  transition: 0.5s all;
+}
+.t-image .hitem:hover {
+  opacity: 1;
+}
+
 /* our teacherts section end  */
 
 /* our blog section start  */
